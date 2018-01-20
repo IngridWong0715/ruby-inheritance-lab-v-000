@@ -23,3 +23,11 @@ steve.learn(some_knowledge)
 steve.learn(some_more_knowledge)
 
 puts "Steve just learned two important knowledge: '#{steve.knowledge.first}' '#{steve.knowledge.last}' from Avi"
+
+ingrid = Student.new
+ingrid.first_name = "Ingrid"
+ingrid.last_name = "Wong"
+
+3.times do
+  ingrid.learn(avi.teach)
+end
